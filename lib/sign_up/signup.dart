@@ -126,6 +126,7 @@ class _SignupState extends State<Signup> {
                     children: [
                       CountryCodePicker(
                         onChanged: print,
+
                         initialSelection: 'IT',
                         favorite: const ['+81', 'Ja'],
                         showCountryOnly: false,
